@@ -12,3 +12,6 @@ class Testando_calculadora:
 
     def teste_de_subtracao(self):
         assert 2 == calculadora.subtrair(4, 2)
+
+    def teste_de_multiplicacao(self):
+        assert 4 == calculadora.multiplicar(2, 2)
